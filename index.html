@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <form action="action_page.php" method="POST">
+        <fieldset>
+            <legend>Choose your favorite programming language</legend>
+
+        <div>
+            <label for ="fname">first name:</label>
+            <input type="text" id="fname" name="fname" placeholder="Spongebob">
+        </div>
+
+        <br>
+
+        <div>
+            <label for ="lname">last name:</label>
+            <input type="text" id="lname" name="lname" placeholder="Squarepants">
+        </div>
+
+        <br>
+
+        <div>
+            <label for ="email">email:</label>
+            <input type="email" id="email" name="email" placeholder="sbobsqpants@gmail.com">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="status">status:</label>
+            <select id="status" name="status">
+                <option value="student">Student</option>
+                <option value="teacher">Teacher</option>
+                <option value="guest">Guest</option>
+            </select>
+        </div>
+
+        <br>
+
+        <div>
+            <p>Choose your favorite programming language:</p>
+
+            <label>HTML</label>
+            <input type="radio" name="lang" value="HTML">
+
+            <label>CSS</label>
+            <input type="radio" name="lang" value="CSS">
+
+            <label>Javascript</label>
+            <input type="radio" name="lang" value="Javascript">
+
+
+        </div>
+
+        <br>
+
+        <div>
+            <label for="story">Comments:</label>
+            <textarea id="story" name="story" rows="5" cols="33">
+                It was a dark and stormy night...
+            </textarea>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="cdate">current date:</label>
+            <input type="date" id="cdate" name="cdate">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="newsletter">Sign up for newsletter</label>
+            <input type="checkbox" id="newsletter" name="newsletter" value="newsletter">
+        </div>
+
+        <br>
+        <div>
+            <label for="agree">Agree to terms and conditions</label>
+            <input type="checkbox" id="agree" name="agree" value="agree">
+        </div>
+
+        <br>
+
+        <div>
+            <input type="submit">
+        </div>
+
+        </fieldset>
+    </form>
+
+
+</body>
+</html>
